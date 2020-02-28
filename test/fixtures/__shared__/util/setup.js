@@ -44,6 +44,7 @@ module.exports = class TestSetup {
       start: 'react-scripts start',
       build: 'react-scripts build',
       test: 'react-scripts test',
+      update: 'react-scripts update-patterns',
     });
     packageJson.license = packageJson.license || 'UNLICENSED';
     await fs.writeJson(
